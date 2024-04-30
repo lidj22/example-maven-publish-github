@@ -11,12 +11,11 @@
   </parent>
 
   <groupId>com.github.lidj22</groupId>
-  <artifactId>my-app</artifactId>
+  <artifactId>downstream-artifact</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>my-app</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <name>downstream-artifact</name>
+  <url>https://github.com/lidj22/example-maven-publish-github</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -31,6 +30,13 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>com.github.lidj22</groupId>
+      <artifactId>upstream-artifact</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
   </dependencies>
 
   <build>
