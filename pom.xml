@@ -54,4 +54,12 @@
     </plugins>
   </build>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub lidj22 Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/lidj22/example-maven-publish-github</url>
+    </repository>
+  </distributionManagement>
+
 </project>
